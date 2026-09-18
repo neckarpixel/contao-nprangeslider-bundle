@@ -1,0 +1,63 @@
+.np-range {
+    position: relative;
+    display: flex;
+    column-gap: 24px;
+    max-width: 90%;
+    margin-top: 6px;
+}
+
+.np-range__head {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.np-range__head input[type="range"] {
+    width: 100%;
+    background-color: var(--form-bg);
+    border: 1px solid var(--form-border);
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+    height: 30px;
+    margin: 0;
+    padding: 5px 6px 6px;
+}
+
+.np-range-scale {
+    position: relative;
+    height: 1.4em;
+    margin-top: 0.35em;
+}
+
+.np-range-scale__mark {
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 11px;
+    color: #999;
+    white-space: nowrap;
+}
+
+.np-range-scale__mark:first-child {
+    transform: translateX(0);
+}
+
+.np-range-scale__mark:last-child {
+    transform: translateX(-100%);
+}
+
+.np-range__output {
+    flex: 0 0 auto;
+    flex-shrink: 0;
+    min-width: 30px;
+    font-weight: 600;
+    line-height: 115%;
+    text-align: center;
+    pointer-events: none;
+    background-color: var(--form-bg);
+    border: 1px solid var(--form-border);
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+    height: 30px;
+    padding: 5px 6px 6px;
+}
