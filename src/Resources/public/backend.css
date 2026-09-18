@@ -3,7 +3,6 @@
     display: flex;
     column-gap: 24px;
     max-width: 90%;
-    margin-top: 6px;
 }
 
 .np-range__head {

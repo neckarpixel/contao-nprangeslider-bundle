@@ -3,7 +3,11 @@
    "type":"contao-bundle",
    "description":"Standalone Contao 5 backend widget: range slider with live value display and labeled scale (inputType 'rangeSlider').",
    "license":"LGPL-3.0-or-later",
-   "version":"1.1.1",
+   "homepage":"https://github.com/neckarpixel/contao-nprangeslider-bundle",
+   "support":{
+      "issues":"https://github.com/neckarpixel/contao-nprangeslider-bundle/issues",
+      "source":"https://github.com/neckarpixel/contao-nprangeslider-bundle"
+   },
    "authors":[
       {
          "name":"Neckarpixel",
